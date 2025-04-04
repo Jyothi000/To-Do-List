@@ -2,11 +2,15 @@
 
 I built a To-Do List Web App with a minimalist design, a smooth user experience, and a progress tracker! 🌟
 
+
 🛠 Tech Stack:
 
 ✔ HTML → Structure of the app
+
 ✔ CSS → Stylish design + cool animations
+
 ✔ JavaScript → Handles user interactions
+
 
 🔥 Features:
 

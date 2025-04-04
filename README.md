@@ -10,13 +10,21 @@ I built a To-Do List Web App with a minimalist design, a smooth user experience,
 
 🔥 Features:
 
+
 ✅ Add Tasks - Type and click "Add Task" to insert a new task.
+
 ✅ Edit Tasks - Modify a task with a simple prompt.
+
 ✅ Mark as Completed - Click the ✔ button, and it turns green!
+
 ✅ Delete Tasks - Remove tasks instantly.
+
 ✅ Progress Bar - Updates dynamically as you complete tasks.
+
 ✅ Animated Background - A looping sky video for a relaxing vibe.
+
 ✅ Star Animation - Floating stars for an aesthetic touch.
+
 
 🎯 How It Works:
 

@@ -1,0 +1,154 @@
+body {
+    /* font-family: Arial, sans-serif; */
+    font-family: 'Playfair Display', serif;
+    background-color: #41a1d4; 
+    background-color: white;
+    image-rendering: auto;
+    text-align: center;
+    padding: 50px;
+    color: rgb(0, 0, 0);
+    background-position: center;
+    background-clip: border-box;
+    background-size: cover;
+
+   
+} 
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+.container {
+    position: relative;
+    z-index: 10;
+    max-width: 400px;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0.5, 0.5, 0.5, 0.5);
+    opacity: 0.90;
+
+}
+
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: #333;
+
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+}
+
+button {
+    cursor: pointer;
+    background-color: #ff4b5c;
+    color: white;
+}
+
+/* Task styling */
+.task {
+    /* background: #ffaad4; */
+    background: #268dcdd7;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+/* Buttons container */
+.task-actions {
+    display: flex;
+    gap: 5px;
+}
+
+/* Styling for buttons */
+.task-actions button {
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Individual button colors */
+.edit-btn { background: #ffcc00; }
+.complete-btn { background: #4CAF50; color: white; }
+.delete-btn { background: rgb(62, 168, 207); color: white; }
+
+.completed {
+    text-decoration: line-through;
+    background: lightgreen !important;
+}
+
+/* Progress Bar */
+.progress-container {
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.progress-bar {
+    width: 100%;
+    background: #ddd;
+    border-radius: 10px;
+    height: 20px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 5px;
+}
+
+#progress-fill {
+    width: 0%;
+    height: 100%;
+    background: #4CAF50;
+    transition: width 0.3s ease-in-out;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+
+@keyframes celebration {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.celebrate {
+    animation: celebration 0.5s ease-in-out;
+}
+

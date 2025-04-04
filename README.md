@@ -3,6 +3,8 @@
 I built a To-Do List Web App with a minimalist design, a smooth user experience, and a progress tracker! 🌟
 
 
+
+
 🛠 Tech Stack:
 
 ✔ HTML → Structure of the app
@@ -10,6 +12,8 @@ I built a To-Do List Web App with a minimalist design, a smooth user experience,
 ✔ CSS → Stylish design + cool animations
 
 ✔ JavaScript → Handles user interactions
+
+
 
 
 🔥 Features:
@@ -28,6 +32,8 @@ I built a To-Do List Web App with a minimalist design, a smooth user experience,
 ✅ Animated Background - A looping sky video for a relaxing vibe.
 
 ✅ Star Animation - Floating stars for an aesthetic touch.
+
+
 
 
 🎯 How It Works:
